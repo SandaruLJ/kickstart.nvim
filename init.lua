@@ -16,10 +16,11 @@ vim.opt.number = true
 -- Make line numbers relative, to help with jumping.
 vim.opt.relativenumber = true
 
--- Use 4 spaces instead of tab
+-- Use 4 spaces instead of tab etc.
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 4
 vim.opt.softtabstop = 4
+vim.opt.shiftround = true
 
 -- Enable mouse mode, can be useful for resizing splits.
 vim.opt.mouse = 'a'
